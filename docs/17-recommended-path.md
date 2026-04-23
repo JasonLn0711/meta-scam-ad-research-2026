@@ -1,5 +1,15 @@
 # Recommended Path
 
+## 2026-04-23 Threads-First Update
+
+This document records the umbrella repo's sharp second-pass recommendation for a broad Meta scam-ad research path. Later on `2026-04-23`, the active phase-1 execution surface narrowed to Threads scam-like content and moved into the sibling child repo:
+
+```text
+../meta-threads-scam-content-research-2026
+```
+
+For current Threads-specific schema, annotation, comments/replies, OCR, link-signal, and phase-1 experiment decisions, use the child repo. This umbrella repo keeps the broader strategy, budget logic, and scope history.
+
 ## Sharp Second-Pass Recommendation
 
 Sell and build this as evidence-centric scam-ad triage research, not Meta-wide scam-ad detection.
@@ -28,7 +38,7 @@ Add only if data access is confirmed:
 - landing-page text/screenshots/URLs
 - redirect or destination evidence
 - limited post/profile/page metadata
-- sampled VLM explanation comparison
+- sampled LLM/VLM explanation comparison on approved redacted samples
 
 These should be framed as gated experiments, not promised core deliverables.
 
@@ -41,7 +51,7 @@ These should be framed as gated experiments, not promised core deliverables.
 - Stories
 - long video
 - full short-video/Reels pipeline
-- comments/replies analysis
+- comments/replies analysis for the broad all-Meta prototype; sampled Threads replies/comments now live in the child repo
 - profile graph/network analysis
 - definitive deepfake detection
 - VLM/LLM scoring for every item

@@ -64,6 +64,17 @@ notebooks/      Exploratory notebooks; do not commit sensitive outputs
 .local/         Ignored local-only working area
 ```
 
+## Related Repos
+
+This repo is now the umbrella strategy repo for the Meta scam-risk research family.
+
+| Repo | Role |
+|---|---|
+| `../planning-everything-track` | Personal/project control plane for priority, status, deadlines, and next actions. |
+| `../meta-threads-scam-content-research-2026` | Active Threads-first child research repo for phase-1 scam-like content triage. |
+
+Read `docs/19-repo-relationships.md` and `decision-log/0004-create-threads-first-child-repo.md` before moving scope between repos.
+
 ## How To Use This Repo
 
 1. Read `docs/00-project-charter.md` to understand the project boundary.
@@ -74,6 +85,7 @@ notebooks/      Exploratory notebooks; do not commit sensitive outputs
 6. Log every experiment under `experiments/modality-studies/`, `experiments/baselines/`, or `experiments/evaluation-notes/`.
 7. Keep durable scope and architecture decisions in `decision-log/`.
 8. Keep data access decisions in `governance/data-governance.md`.
+9. Use `docs/19-repo-relationships.md` to route work between the planning repo, umbrella repo, and Threads child repo.
 
 ## Collaboration Order
 

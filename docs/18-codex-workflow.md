@@ -10,8 +10,9 @@ Future Codex sessions should keep this repo coherent, evidence-based, and low ch
 2. Read `AGENTS.md`.
 3. Read `docs/00-project-charter.md`.
 4. Read `docs/17-recommended-path.md`.
-5. Check `git status --short`.
-6. Before touching data-related files, read `governance/data-governance.md` and `data-contracts/README.md`.
+5. Read `docs/19-repo-relationships.md` before moving scope or copying context across repos.
+6. Check `git status --short`.
+7. Before touching data-related files, read `governance/data-governance.md` and `data-contracts/README.md`.
 
 ## File Update Rules
 
@@ -23,6 +24,7 @@ Future Codex sessions should keep this repo coherent, evidence-based, and low ch
 - If data posture changes, update `governance/data-governance.md` before implementation.
 - If proposal language changes, keep non-promises consistent with `docs/10-decision-memo.md`.
 - If code becomes useful, keep it minimal and make sure it follows an existing data contract.
+- If Threads-specific schema, annotation, or experiment details change, update `../meta-threads-scam-content-research-2026` instead of duplicating those details here.
 
 ## Branch Strategy
 
