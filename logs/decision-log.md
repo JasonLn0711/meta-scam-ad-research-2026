@@ -7,3 +7,4 @@ This file remains only as a lightweight historical index from the initial repo c
 | Date | Decision | Durable record |
 |---|---|---|
 | 2026-04-23 | Repo name set to `meta-scam-ad-research`; data posture set to authorization-first; budget-fit path set to evidence-centric hybrid triage | `decision-log/0001-initial-docs-first-research-architecture.md` |
+| 2026-04-23 | First prototype narrowed to static creative evidence triage packet; video, comments, Stories, graph, live ingestion, and definitive deepfake detection postponed | `decision-log/0002-budget-fit-static-creative-triage.md` |
