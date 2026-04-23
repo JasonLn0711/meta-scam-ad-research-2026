@@ -23,6 +23,7 @@ The initial concern was that the full problem space is too large for NTD 1.8M: F
 - Added collaboration scaffolding: `notes/`, `templates/`, `data-contracts/`, `decision-log/`, and experiment subfolders.
 - Ran a second-pass refinement to cut overly broad or low-ROI branches from the first prototype.
 - Created separate Git commits for the initial repo, budget narrowing, and collaboration scaffolding.
+- Later same day, converted the immediate Threads deliverable from a stakeholder scoping memo into a CIB/165-facing initial research report `v0` due `2026-04-30`.
 
 ## Same-Day Threads-First Update
 
@@ -37,6 +38,13 @@ What changed:
 - Defined Threads phase-1 scope around text posts, text plus image posts, replies/comments, OCR text, visible redirection signals, external links, and human-review-oriented triage.
 - Deferred long video, heavy short-video pipelines, deepfake detection as a mainline workstream, full Meta cross-platform integration, automated collection, production deployment, and heavy model training.
 - Connected the planning repo, umbrella repo, and Threads repo with explicit relationship documents rather than submodules, sync scripts, or duplicated live docs.
+- Added a report package in the Threads child repo:
+  - `reports/README.md`
+  - `reports/threads-scam-content-research-v0.md`
+  - `decision-log/0002-create-report-v0-deadline.md`
+  - `notes/2026-04-23-cib-165-report-v0-direction.md`
+- Updated the planning repo W18 agenda and project locator so the April 30 CIB/165 report `v0` is the active research deliverable.
+- Attempted Google Calendar creation for the report blocks, but the connector returned unsupported-tool errors; the planning repo now has an `.ics` import fallback.
 
 The updated repo split is:
 
@@ -63,6 +71,12 @@ Same-day update:
 > Threads-first scam-like content triage is the active phase-1 execution path.
 
 This umbrella repo remains the broad strategy and decision-memory surface. The Threads repo owns the current executable research scaffold.
+
+Later same-day report update:
+
+> The next deliverable is not a concept memo. It is a CIB/165-facing Threads scam-content research report `v0` by `2026-04-30`.
+
+From first principles, this is the right artifact because stakeholder report pressure is not a dataset, suspicion is not legal guilt, and the NTD 1.8M budget fits governed research plus early baselines rather than production detection.
 
 ## Strongest First Scope
 
@@ -113,17 +127,33 @@ Additional same-day artifacts:
 - `docs/19-repo-relationships.md`
 - `../meta-threads-scam-content-research-2026/docs/21-repo-relationships.md`
 - `../planning-everything-track/data/projects/2026-04-meta-scam-ad-research.md`
+- `../meta-threads-scam-content-research-2026/reports/threads-scam-content-research-v0.md`
+- `../meta-threads-scam-content-research-2026/decision-log/0002-create-report-v0-deadline.md`
+- `../planning-everything-track/data/projects/2026-04-meta-scam-ad-research/2026-04-27-30-cib-165-threads-report-v0-calendar-blocks.ics`
+
+Threads child repo commits:
+
+- `be5f2b5 docs: initialize Threads scam content research repo`
+- `653e679 docs: align Threads taxonomy vocabulary`
+- `4deb071 docs: create CIB 165 Threads report v0 package`
+
+Planning repo report/bridge commits:
+
+- `13b60ea plan: record Threads research repo bridge`
+- `67559f3 plan: update Threads research next action`
+- `ca9c65d plan: schedule CIB 165 Threads report v0`
 
 ## Next Step
 
-Draft a Threads-first stakeholder scoping memo using:
+Assemble the CIB/165-facing Threads research report `v0` by `2026-04-30` using:
 
 - the umbrella repo for broad stakeholder framing
+- `../meta-threads-scam-content-research-2026/reports/threads-scam-content-research-v0.md`
 - `../meta-threads-scam-content-research-2026/docs/16-open-questions-for-stakeholders.md`
 - `../meta-threads-scam-content-research-2026/docs/18-recommended-path-v1.md`
 - `../meta-threads-scam-content-research-2026/docs/09-phase-1-experiment-plan.md`
 
-The memo should ask what Threads samples can be lawfully provided, what counts as report-worthy Threads content, which scam families matter most, what reviewer workflow exists, and what this research should explicitly avoid promising.
+The report should state CIB/165 context as stakeholder background, define Threads-only scam-like content, propose the 100 to 150 item dataset v0 plan, compare text-only versus text+OCR+comments/link-signal baselines, evaluate reviewer burden and evidence completeness, and list the approvals needed before real data collection.
 
 ## Promote / Park
 

@@ -1,5 +1,17 @@
 # Next-Step Execution Plan
 
+## 2026-04-23 Threads Report Update
+
+The immediate external-facing artifact is no longer a generic procurement-safe scoping memo. After the Threads-first narrowing, the next artifact is:
+
+```text
+../meta-threads-scam-content-research-2026/reports/threads-scam-content-research-v0.md
+```
+
+Target date: `2026-04-30`.
+
+From first principles, this report is needed before real data work because stakeholder pressure is not a dataset, scam-like content is uncertain evidence rather than legal determination, and NTD 1.8M supports a governed research MVP rather than a production detection system.
+
 ## First 2 Weeks
 
 Goal: lock scope, data posture, taxonomy, and first evidence schema.
@@ -12,7 +24,7 @@ Tasks:
 - Finalize taxonomy v0.1 from `docs/04-taxonomy.md`.
 - Finalize annotation guideline v0.1 from `docs/13-annotation-guideline-draft.md`.
 - Define minimum evidence schema from `docs/03-data-strategy.md`.
-- Draft procurement-safe scoping memo.
+- Assemble the CIB/165-facing Threads research report `v0`; use this as the procurement-safe scope artifact.
 - Create 5-10 synthetic or public non-sensitive examples only for pipeline dry run if real data is not yet approved.
 
 Milestones:
