@@ -1,0 +1,68 @@
+# Local-only working area
+.local/
+
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Notebook and editor noise
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*~
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Sensitive or generated data
+data/raw/*
+data/interim/*
+data/processed/*
+data/annotations/*
+data/external/*
+data/synthetic/generated/*
+*.sqlite
+*.db
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.joblib
+
+# Credentials and local exports
+.env
+.env.*
+*.pem
+*.key
+*.token
+*credentials*
+*secret*
+exports/
+downloads/
+
+# Model and media artifacts
+models/
+artifacts/
+checkpoints/
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.wav
+*.mp3
+
+# Keep governance docs and README files trackable
+!data/README.md
+!data/**/README.md
+!data/**/.gitkeep
