@@ -6,8 +6,9 @@ Authorization-first. No automated Meta data collection without explicit written 
 
 ## Current Data Status
 
-- Real stakeholder data: not yet received.
-- Public/manual examples: not yet approved for collection.
+- Real stakeholder data: not stored in this repo.
+- Public/manual examples: not collected in this repo.
+- Threads child pilot: approved with limits in `../meta-threads-scam-content-research-2026`; exact controlled launch details must be completed outside git before item 1.
 - Synthetic examples: allowed for pipeline dry runs.
 - Automated Meta collection: not approved.
 - Landing-page capture: not approved.
@@ -18,6 +19,7 @@ Authorization-first. No automated Meta data collection without explicit written 
 | Date | Decision | Owner | Notes |
 |---|---|---|---|
 | 2026-04-23 | Initial posture set to authorization-first | Project starter | No automated Meta collection approved |
+| 2026-04-23 | Record non-sensitive Threads pilot controlled-launch bridge | Jason | `governance/threads-pilot-v1-controlled-launch-bridge.md`; filled controlled launch details remain outside git |
 
 ## Approved Uses
 
@@ -27,6 +29,7 @@ Currently approved:
 - designing schemas and annotation guidelines
 - creating synthetic toy examples
 - reviewing public policy/research sources
+- recording non-sensitive governance bridges to the Threads child repo
 
 Not approved:
 
@@ -35,6 +38,7 @@ Not approved:
 - landing-page crawling
 - storing raw personal data
 - using real case screenshots in public docs
+- storing filled controlled launch records in git if they contain sensitive source, storage, access, retention, redaction, or investigative details
 
 ## Evidence Handling Rules
 

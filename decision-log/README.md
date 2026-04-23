@@ -28,3 +28,13 @@ Use `templates/decision-record.md`.
 - experiment run details
 - TODO lists
 - private scratch thinking
+
+## Index
+
+| ID | Decision |
+|---|---|
+| `0001` | Initial docs-first research architecture |
+| `0002` | Budget-fit static creative triage |
+| `0003` | Rename repo with project year |
+| `0004` | Create Threads-first child research repo |
+| `0005` | Record Threads controlled launch bridge |
