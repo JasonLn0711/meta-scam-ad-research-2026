@@ -1,5 +1,6 @@
 # Meta Scam Ad Research
 
+<img src="http://estruyf-github.azurewebsites.net/api/VisitorHit?user=JasonLn0711&repo=meta-scam-ad-research-2026&countColor=%237B1E7B" alt="Visitor count"/>
 Research starter kit for the "Meta platform scam-ad detection" project. The working scope includes scam-like advertising and ad-adjacent content on Facebook, Instagram, Threads, and related off-platform landing pages where lawful evidence is available.
 
 This repository is intentionally framed as a research program, not a production detection product. The budget reality is approximately NTD 1.8M for this subproject. That can support serious scoping, evidence design, a governed dataset slice, exploratory baselines, and a budget-fit prototype. It cannot support full cross-platform production ingestion, complete deepfake detection, comprehensive video moderation, or guaranteed enforcement accuracy across all Meta surfaces.
